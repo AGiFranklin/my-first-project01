@@ -22,3 +22,6 @@ dist/
 build/
 out/
 _site/
+
+# Kilo config (may contain secrets/tokens)
+.kilo/kilo.jsonc
