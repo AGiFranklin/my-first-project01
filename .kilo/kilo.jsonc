@@ -1,24 +1,4 @@
 {
   "$schema": "https://app.kilo.ai/config.json",
-  "snapshot": false,
-  "mcp": {
-    "github": {
-      "type": "local",
-      "command": ["npx", "@modelcontextprotocol/server-github"],
-      "environment": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN_HERE"
-      },
-      "enabled": true
-    },
-    "filesystem": {
-      "type": "local",
-      "command": ["npx", "@modelcontextprotocol/server-filesystem", "C:/Users/HP 14s/Documents/Coding/Power Hub"],
-      "enabled": true
-    },
-    "sequential-thinking": {
-      "type": "local",
-      "command": ["npx", "@modelcontextprotocol/server-sequential-thinking"],
-      "enabled": true
-    }
-  }
+  "snapshot": false
 }
